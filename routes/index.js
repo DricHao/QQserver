@@ -14,6 +14,13 @@ router.get('/json', async (ctx, next) => {
   ctx.body = {
     title: 'koa2 json'
   }
+});
+
+router.get('/login', async (ctx, next) => {
+  ctx.body = {
+    code: 0,
+    msg: '成功登录！'
+  }
 })
 
 module.exports = router
