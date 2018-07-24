@@ -1,3 +1,3 @@
-const uri = 'mongodb://localhost/users'
+const uri = 'mongodb://localhost/qq/users'
 
 module.exports = uri
