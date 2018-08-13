@@ -15,6 +15,7 @@ const user = require('./controller/user')
 onerror(app)
 
 // middlewares
+
 app.use(cors({
   origin: function(ctx) {
     if (ctx.url === '/test') {
