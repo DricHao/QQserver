@@ -6,7 +6,7 @@ router.get('/login',async (ctx, next) => {
         msg: '登录成功咯！',
         data: [
             {
-                
+                name: 'BOB'
             }
         ]
     }
