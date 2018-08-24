@@ -16,8 +16,13 @@ function readFile(uri) {
 readFile('index.js').then(
     (data) => {
         console.log(data.toString());
+        return true
     },
     (err) => {
         console.log(err);
+    }
+).then(
+    (val) => {
+        console.log(val)
     }
 )
