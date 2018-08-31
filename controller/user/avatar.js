@@ -23,6 +23,6 @@ readFile('index.js').then(
     }
 ).then(
     (val) => {
-        console.log(val)
+        console.log(val);
     }
 )
